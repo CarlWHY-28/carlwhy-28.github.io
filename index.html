@@ -22,12 +22,16 @@
                 <p class="name" style="text-align: center;">
                   Haoyu Wang
                 </p>
-                <p>I am an <a href="https://www.sci.pitt.edu/academics/undergraduate-majors/information-science">MSIS</a> student at <a href = "https://www.pitt.edu">University of Pittsburgh</a>. I completed my undergraduate studies at Beijing Forestry University, majored in Computer Science and Technology.</p>
-                 <p> I work as a computational biology intern at <a href="https://www.osmanbeyoglulab.com">Osmanbeyoglu Lab</a> in UPMC Hillman Cancer Center.
+                <p>I am a Biomedical Informatics <a href="https://www.sci.pitt.edu/academics/undergraduate-majors/information-science">Ph.D</a> student at <a href = "https://www.medschool.pitt.edu">University of Pittsburgh School of Medicine</a>. I completed my undergraduate studies at Beijing Forestry University, majored in Computer Science and Technology.</p>
+                 <p> I have been working as a computational biology intern at <a href="https://www.osmanbeyoglulab.com">Osmanbeyoglu Lab</a> in UPMC Hillman Cancer Center since Aug 2024.
+
                 </p>
+                  <p>
+                      Now I am looking for an internship in the field of machine learning, AI, data analysis, computational biology, and other AI4Medicine. If you are interested in my profile, please feel free to contact me.
+                  </p>
                 <p style="text-align:center">
                   <a href="mailto:HAW309@pitt.edu">Email</a> &nbsp;/&nbsp;
-                  <a href="CV_Haoyu_Wang.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="CV_HaoyuW.pdf">CV</a> &nbsp;/&nbsp;
                   <a href="https://github.com/CarlWHY-28">Github</a>
                 </p>
               </td>
@@ -41,19 +45,75 @@
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  I'm interested in machine learning, AI, data analysis, computational biology, and other AI4S. I very much hope to continue my study and research in these aspects.
+                    Feel free to reach out if you are interested in my research or have any questions!
                 </p>
               </td>
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
             <tr onmouseout="bdrs_stop()" onmouseover="bdrs_start()">
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
                   <div class="two" id='bdrs_image'>
 
-                    <img src='images/Con.jpg' width="160" height=100%></div>
-                    <img src='images/Con.jpg' width="160" height=100%></div>
+                    <img src='images/dgat.png' width="200" height=80%></div>
+                    <img src='images/dgat.png' width="200" height=80%></div>
+<!--                    <img src='images/Con.jpg' width="160" height=100%></div>-->
+                <script type="text/javascript">
+                  function bdrs_start() {
+                    document.getElementById('bdrs_image').style.opacity = "1";
+                  }
+                  function bdrs_stop() {
+                    document.getElementById('bdrs_image').style.opacity = "0";
+                  }
+                  bdrs_stop()
+                </script>
+              </td>
+
+
+
+
+              <td style="padding:20px;width:75%;vertical-align:middle">
+
+                  <span class="papertitle">DGAT: A Dual-Graph Attention Network for Inferring Spatial Protein Landscapes from Transcriptomics</span>
+
+                <br>
+                Sep 2024 - May 2025 &nbsp;&nbsp;
+
+                                  <a href="https://github.com/CarlWHY-28/DGAT/tree/master">project page</a>
+
+                <p></p>
+                <p>
+                    Designed and implemented DGAT, <u>a deep learning framework leveraging graph attention networks (GATs) for imputing spatial protein expression from transcriptomics-only spatial transcriptomics (ST) data.</u>
+                </p>
+        <p>
+            Constructed <b>dual heterogeneous graphs capturing spatial proximity and molecular similarity</b> for both mRNA and protein modalities, encoded by modality-specific GAT encoders.
+          </p>
+                  <p>
+                      Developed a multi-branch decoder for protein prediction and optimized a cross-modality loss function to align mRNA and protein embeddings with latent space supervision.
+                  </p>
+                  <p>
+                      Benchmarked DGAT using one-sample holdout strategy across different spatial multi-omics data. <b>DGAT outperformied state-of-the-art methods</b> (cTP-net, scLinear, sciPENN, Seurat) in protein imputation accuracy.
+
+                  </p>
+                  <p>
+                      Demonstrated <b>out-of-distribution generalization</b> on unseen lymph node, melanoma, and prostate cancer tissues, achieving high adjusted Rand index in spatial domain recovery.
+                  </p>
+                  <p>
+                      Published preprint on bioRxiv: <a href="https://www.biorxiv.org/content/10.1101/2025.07.05.662121v1">10.1101/2025.07.05.662121</a>
+                  </p>
+                <span class="highlight">Deep learning, machine learning model design, graph neural networks (GNNs), multi-omics data</span>
+              </td>
+            </tr>
+
+            <tr onmouseout="bdrs_stop()" onmouseover="bdrs_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='bdrs_image'>
+
+                    <img src='images/con.jpg' width="160" height=100%></div>
+<!--                    <img src='images/dgat.png' width="300" height=30%></div>-->
                 <script type="text/javascript">
                   function bdrs_start() {
                     document.getElementById('bdrs_image').style.opacity = "1";
@@ -73,7 +133,7 @@
                   <span class="papertitle">Pancreatic Data Analysis</span>
 
                 <br>
-                August 2024 - Current &nbsp;&nbsp;
+                August 2024 - Dec 2024 &nbsp;&nbsp;
 
                 <p></p>
                 <p>
